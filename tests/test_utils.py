@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from game import parse_dice_values, parse_board_values
+from utils import parse_dice_values, parse_board_values
 
 
 class TestGame(unittest.TestCase):
