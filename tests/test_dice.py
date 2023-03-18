@@ -2,6 +2,7 @@ import unittest
 
 from dice import Dice
 
+
 class TestDice(unittest.TestCase):
 
     test_data = {

@@ -1,5 +1,6 @@
 from enum import IntEnum
 
+
 class Face(IntEnum):
     TOP = 0
     BOTTOM = 1
@@ -7,6 +8,7 @@ class Face(IntEnum):
     DOWN = 3
     LEFT = 4
     RIGHT = 5
+
 
 OPPOSITE_FACE_PAIRS = (
     (Face.TOP, Face.BOTTOM),
@@ -17,7 +19,9 @@ OPPOSITE_FACE_PAIRS = (
     (Face.RIGHT, Face.LEFT),
 )
 
+
 class Dice:
+
     def __init__(self, values):
         self.values = values
         self.opposite_value = {

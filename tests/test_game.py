@@ -5,6 +5,7 @@ from game import Game
 
 
 class TestDice(unittest.TestCase):
+
     test_data = [
         {
             'dice_values': [1, 6, 2, 5, 4, 3],

@@ -1,5 +1,5 @@
-from unittest.mock import patch
 import unittest
+from unittest.mock import patch
 from contextlib import redirect_stdout
 import io
 
@@ -7,6 +7,7 @@ from main import main
 
 
 class TestMain(unittest.TestCase):
+
     test_data = [
         {
             'input': ['1 6 2 5 4 3\n', '4\n', '1\n', '5\n', '4\n', '3\n'],

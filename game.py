@@ -1,4 +1,5 @@
 class Game:
+
     def __init__(self, dice, board_values):
         self.dice = dice
         self.board_values = board_values
