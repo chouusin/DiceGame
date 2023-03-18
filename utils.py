@@ -7,3 +7,6 @@ def parse_board_values():
     board_count = int(input())
     board_values = [int(input()) for _ in range(board_count)]
     return board_values
+
+def show_result(turns):
+    print(turns, end='')
