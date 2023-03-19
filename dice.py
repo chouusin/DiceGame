@@ -21,13 +21,9 @@ OPPOSITE_FACE_PAIRS = (
 
 
 class Dice:
-
     def __init__(self, values):
         self.values = values
-        self.opposite_value = {
-            self.values[k]: self.values[v]
-            for k, v in OPPOSITE_FACE_PAIRS
-        }
+        self.opposite_value = {self.values[k]: self.values[v] for k, v in OPPOSITE_FACE_PAIRS}
 
     def get_opposite_value(self, value):
         return self.opposite_value[value]

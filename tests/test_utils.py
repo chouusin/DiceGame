@@ -7,7 +7,6 @@ from utils import parse_dice_values, parse_board_values, show_result
 
 
 class TestGame(unittest.TestCase):
-
     dice_test_data = {
         'input': ['1 6 2 5 4 3\n'],
         'expected_output': [1, 6, 2, 5, 4, 3],

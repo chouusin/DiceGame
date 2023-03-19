@@ -4,25 +4,15 @@ from dice import Dice
 
 
 class TestDice(unittest.TestCase):
-
     test_data = {
         'input': [1, 6, 2, 5, 4, 3],
         'expected_output': [6, 1, 5, 2, 3, 4],
     }
 
     rotate_distance_test_data = [
-        {
-            'input': (1, 6),
-            'expected_output': 2
-        },
-        {
-            'input': (1, 4),
-            'expected_output': 1
-        },
-        {
-            'input': (1, 1),
-            'expected_output': 0
-        },
+        {'input': (1, 6), 'expected_output': 2},
+        {'input': (1, 4), 'expected_output': 1},
+        {'input': (1, 1), 'expected_output': 0},
     ]
 
     def setUp(self):
@@ -34,4 +24,7 @@ class TestDice(unittest.TestCase):
 
     def test_rotate_distance(self):
         for data in self.rotate_distance_test_data:
-            self.assertEqual(self.dice.rotate_distance(data['input'][0], data['input'][1]), data['expected_output'])
+            self.assertEqual(
+                self.dice.rotate_distance(data['input'][0], data['input'][1]),
+                data['expected_output'],
+            )
