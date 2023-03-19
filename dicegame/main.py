@@ -13,7 +13,3 @@ def main():
     game.run()
 
     show_result(game.total_turns)
-
-
-if __name__ == '__main__':
-    main()
