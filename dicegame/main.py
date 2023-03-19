@@ -1,6 +1,6 @@
-from utils import parse_dice_values, parse_board_values, show_result
-from dice import Dice
-from game import Game
+from dicegame.utils import parse_dice_values, parse_board_values, show_result
+from dicegame.dice import Dice
+from dicegame.game import Game
 
 
 def main():

@@ -3,7 +3,7 @@ from unittest.mock import patch
 from contextlib import redirect_stdout
 import io
 
-from utils import parse_dice_values, parse_board_values, show_result
+from dicegame.utils import parse_dice_values, parse_board_values, show_result
 
 
 class TestUtils(unittest.TestCase):

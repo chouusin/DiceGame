@@ -1,7 +1,7 @@
 import unittest
 
-from dice import Dice
-from game import Game
+from dicegame.dice import Dice
+from dicegame.game import Game
 
 
 class TestGame(unittest.TestCase):

@@ -3,7 +3,7 @@ from unittest.mock import patch
 from contextlib import redirect_stdout
 import io
 
-from main import main
+from dicegame.main import main
 
 
 class TestMain(unittest.TestCase):
