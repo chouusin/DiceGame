@@ -30,3 +30,27 @@ class TestMain(unittest.TestCase):
                     main()
 
                 self.assertEqual(captured_output.getvalue(), '8')
+
+    def test_lower_boundary(self):
+        input_values = ['1 6 2 5 4 3\n', '2\n'] + ['1\n', '5\n']
+        with patch(
+            'builtins.input',
+            side_effect=input_values,
+        ):
+            with io.StringIO() as captured_output:
+                with redirect_stdout(captured_output):
+                    main()
+
+                self.assertEqual(captured_output.getvalue(), '1')
+
+    def test_upper_boundary(self):
+        input_values = ['1 6 2 5 4 3\n', '1000\n'] + ['1\n', '5\n', '4\n', '3\n'] * 250
+        with patch(
+            'builtins.input',
+            side_effect=input_values,
+        ):
+            with io.StringIO() as captured_output:
+                with redirect_stdout(captured_output):
+                    main()
+
+                self.assertEqual(captured_output.getvalue(), str(4 * 250 + 1 * 249))
