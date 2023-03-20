@@ -10,15 +10,6 @@
 
 This project is only for demonstration purpose. Please do not use it for anything else.
 
-## TL;DR
-
-There is an all in one python file for this whole project located at `Scripts/dicegame.py` so that you don'tneed to go through the package setup process.
-
-```
-cd Scripts
-python dicegame.py
-```
-
 ## Installation
 
 This project runs on Python `3.7+`. It requires no external dependencies.
