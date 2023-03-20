@@ -1,4 +1,4 @@
-# Dice Game
+# Dice Game (ひとりすごろく)
 
 [![Stars](https://img.shields.io/github/stars/chouusin/DiceGame.svg?logo=github)](https://github.com/chouusin/DiceGame)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
