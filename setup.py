@@ -6,6 +6,6 @@ setup(
     packages=find_packages(),
     install_requires=[],
     entry_points={
-        'console_scripts': ['dicegame = dicegame.main:main'],
+        'console_scripts': ['dicegame = dicegame.cmdline:main'],
     },
 )
