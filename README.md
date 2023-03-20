@@ -6,6 +6,8 @@
 [![CI](https://github.com/chouusin/DiceGame/actions/workflows/ci.yml/badge.svg)](https://github.com/chouusin/DiceGame/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/github/chouusin/DiceGame/branch/main/graph/badge.svg?token=tkq655ROg3)](https://app.codecov.io/github/chouusin/DiceGame)
 
+このページをご覧いただき、ありがとうございます。
+
 This project is only for demonstration purpose. Please do not use it for anything else.
 
 ## TL;DR
